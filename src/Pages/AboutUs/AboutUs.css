@@ -1,0 +1,52 @@
+.team-name {
+    font-weight: bold !important;
+    letter-spacing: 1px !important;
+    margin-top: 10px !important;
+}
+.team-frame {
+    /* border-bottom: 1px solid #002868; */
+    padding-bottom: 20px;
+}
+.team-role {
+    font-size: 14px !important;
+    color: gray;
+    font-weight: bold !important;
+    letter-spacing: 1px;
+}
+.image_wrapper_au {
+    position: relative;
+    height: 300px !important;
+}
+.overlayed-image-au {
+    width: 50%;
+    float: right;
+    opacity: 0.5;
+    height: 100%;
+    object-fit: cover;
+}
+.rrwhite-au { 
+    width: 100%;
+    height: 300px !important;
+}
+.overlay-au {
+    position: absolute; 
+    left: 0px;
+    color: white;
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+@media (max-width: 480px) {
+    
+    .overlay-au {
+        height: 100%;
+    }
+    .rrwhite-au, .image_wrapper_au {
+        height: 35vh !important;
+    }
+    .about-us-title {
+        font-size: 30px !important;
+    }
+}

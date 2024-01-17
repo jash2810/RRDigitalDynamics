@@ -1,0 +1,23 @@
+.dark-container {
+    padding-top: 15px !important;
+    padding-bottom: 125px !important;
+}
+
+.Typewriter {
+    display: inline-block !important;
+}
+.Typewriter__cursor {
+    color: orange !important;
+}
+.whyus {
+    font-size: 24px !important;
+}
+
+@media (max-width: 480px) {
+    .whyus-main-line {
+        font-size: 30px !important;
+    }
+    .whyus {
+        font-size: 20px !important;
+    }
+}

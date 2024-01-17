@@ -1,0 +1,37 @@
+.cv-image {
+    width: 65%;
+    margin: auto;
+}
+.cv-content {
+    font-size: 25px !important;
+    color: #002868 !important;
+}
+.cv-div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #002868 !important;
+}
+.mobile-view {
+    display: none !important;
+}
+.desktop-view {
+    display: block !important;
+}
+@media (max-width: 480px) {
+    .cv-image {
+        width: 80%;
+        margin: auto;
+    }
+    .cv-content {
+        font-size: 20px !important;
+        color: #002868 !important;
+    }
+    .desktop-view {
+        display: none !important;
+    }
+    .mobile-view {
+        display: block !important;
+    }
+}
