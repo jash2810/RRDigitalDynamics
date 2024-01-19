@@ -20,15 +20,15 @@ function Navbar() {
 
   const PAGES = [
     "Home", 
+    "Service",
     "About Us", 
     "Contact Us", 
-    "Services"
   ];
   const LINKS = [
     "/", 
+    "/services",
     "/about-us", 
     "/contact-us", 
-    "/services"
   ];
 
   const [navbarTransparent, setNavbarTransparent] = useState("transparent");
@@ -67,11 +67,11 @@ function Navbar() {
           {isMatch ? (
             <>
               <DrawerComp pages={PAGES} links={LINKS} />
-              <img src={logoimage} width={"100px"} />
+              <Link to={'/'}><img src={logoimage} width={"200px"} /></Link>
             </>
           ) : (
             <>
-              <img src={logoimage} width={"200px"} />
+              <Link to={'/'}><img src={logoimage} width={"200px"} /></Link>
               <Tabs textColor="white" value={1} style={{width: '100%', paddingLeft: '200px'}}>
                 {PAGES.map((page, key) => {
                   function functionGetClass() {
