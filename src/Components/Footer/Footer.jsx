@@ -48,10 +48,7 @@ function Footer() {
                   component={"h6"}
                   color={"white"}
                 >
-                  Let us build the bridge between your brand and customer Let us
-                  build the bridge between your brand and customer Let us build
-                  the bridge between your brand and customer Let us build the
-                  bridge between your brand and customer
+                  "Embark on a journey of meaningful connections and unparalleled experiences. Our commitment to bridging the gap ensures a solid foundation for trust, loyalty, and mutual growth. Together, let's shape a bridge that transcends transactions, fostering a lasting bond between your brand and the hearts of your customers."
                 </Typography>
               </Grid>
 
