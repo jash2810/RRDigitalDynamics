@@ -80,6 +80,9 @@
 .contact-us-title {
   margin-top: 220px !important;
 }
+.css-dpoy1b-MuiFormLabel-root-MuiInputLabel-root {
+  z-index: 0 !important;
+}
 @media (max-width: 480px) {
     .contact-us-tile {
         width: 80% !important;
