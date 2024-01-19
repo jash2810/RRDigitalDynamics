@@ -84,10 +84,10 @@ function OurAimNew() {
 
   return (
     <div
-    //   style={{
-    //     backgroundColor: theme.palette.primary.light,
-    //     paddingTop: "30px",
-    //   }}
+       style={{
+         backgroundColor: theme.palette.primary.light,
+         paddingTop: "30px",
+       }}
     >
       <React.Fragment>
           <ReactVisibilitySensor onChange={checkOurAimVisible}>
