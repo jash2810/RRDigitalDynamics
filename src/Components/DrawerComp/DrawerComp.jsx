@@ -3,6 +3,7 @@ import { Drawer, IconButton, List, Tab, Tabs, useTheme } from "@mui/material";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./DrawerComp.css";
+import logoimage from '../../Images/RRDigitalHorizontal.png'
 
 function DrawerComp({ pages, links }) {
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -46,7 +47,7 @@ function DrawerComp({ pages, links }) {
               //   disabled={true}
             /> */}
             <div style={{backgroundColor: theme.palette.primary.main, padding: '13px 10px'}}>
-            <img src="RRDigitalHorizontal.png" width={'150px'} />
+            <img src={logoimage} width={'150px'} />
             </div>
             {pages.map((page, key) => (
               <Tab
