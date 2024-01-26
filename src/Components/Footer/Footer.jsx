@@ -48,7 +48,14 @@ function Footer() {
                   component={"h6"}
                   color={"white"}
                 >
-                  "Embark on a journey of meaningful connections and unparalleled experiences. Our commitment to bridging the gap ensures a solid foundation for trust, loyalty, and mutual growth. Together, let's shape a bridge that transcends transactions, fostering a lasting bond between your brand and the hearts of your customers."
+                  "Embark on a journey of meaningful connections and
+                  unparalleled experiences. Our commitment to bridging the gap
+                  ensures a solid foundation for trust, loyalty, and mutual
+                  growth.
+                  <br />
+                  Together, let's shape a bridge that transcends transactions,
+                  fostering a lasting bond between your brand and the hearts of
+                  your customers."
                 </Typography>
               </Grid>
 
@@ -57,7 +64,7 @@ function Footer() {
               <Grid container style={{ top: "4rem", position: "relative" }}>
                 <Grid item xs={12}>
                   <Typography
-                    style={{ textAlign: "center", fontSize: "large" }}
+                    style={{ textAlign: "center", fontSize: "large", marginInlineEnd:"2.5rem" }}
                     className="copyRight"
                     variant="h6"
                     component={"h6"}

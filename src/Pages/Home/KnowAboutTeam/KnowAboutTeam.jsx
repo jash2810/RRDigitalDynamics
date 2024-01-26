@@ -19,7 +19,7 @@ function KnowAboutTeam() {
       <React.Fragment>
         <ReactVisibilitySensor onChange={knowOurTeamVisible}>
           <PageSectionTitle
-            pageTitle={"Want to know more about our team and what we do?"}
+            pageTitle={"Want to know more about what we do?"}
             pageSubTitle={
               "We are a diverse and dynamic group of individuals dedicated to achieving excellence and driving innovation together."
             }

@@ -5,7 +5,8 @@
     margin: auto !important;
 }
 .about-us-quote {
-    font-size: 30px;
+    font-size: 25px !important;
+    color: #002868 !important;
 }
 .quote-wrapper-wrap {
     width: 100%;
@@ -16,7 +17,8 @@
 
 @media (max-width: 480px) {
     .about-us-quote {
-        font-size: 20px;
+        font-size: 20px !important;
+        color: #002868 !important;
     }
     .about-us-quote-icon {
         font-size: 15px !important;

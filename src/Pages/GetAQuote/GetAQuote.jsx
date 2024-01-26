@@ -164,9 +164,10 @@ function GetAQuote() {
                                         onChange={(e) => changeValue(e)}
                                         style={{width: '100%'}}
                                     >
-                                        <MenuItem value={'10'}>Ten</MenuItem>
-                                        <MenuItem value={'20'}>Twenty</MenuItem>
-                                        <MenuItem value={'30'}>Thirty</MenuItem>
+                                        <MenuItem value={'Social Media Marketing'}>Social Media Marketing</MenuItem>
+                                        <MenuItem value={'SEO'}>SEO</MenuItem>
+                                        <MenuItem value={'PPC'}>PPC</MenuItem>
+                                        <MenuItem value={'Web Development'}>Web Development</MenuItem>
                                     </Select>
                             </Grid>
                         </Grid>
