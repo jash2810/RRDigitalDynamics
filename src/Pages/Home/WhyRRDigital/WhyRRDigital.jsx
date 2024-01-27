@@ -12,7 +12,7 @@ function WhyRRDigital() {
             <div className='dark-container' style={{backgroundColor: theme.palette.primary.light, height: '100px'}}>
                 <Grid container className='container90'>
                     <Grid item sm="12" style={{marginBottom: '20px'}}>
-                        <Typography variant='p' color={theme.palette.primary.main} className='whyus'>Why RRDigital Dynamics?</Typography>
+                        <Typography variant='p' color={theme.palette.primary.main} className='whyus'>Why RR Digital Dynamics?</Typography>
                     </Grid>
                     <Grid item sm="12">
                         {/* <Typography variant='p' color={'white'} >Why RRDigital?</Typography> */}
