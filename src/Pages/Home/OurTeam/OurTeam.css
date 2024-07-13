@@ -1,0 +1,15 @@
+.team-name {
+    font-weight: bold !important;
+    letter-spacing: 1px !important;
+    margin-top: 10px !important;
+}
+.team-frame {
+    /* border-bottom: 1px solid #002868; */
+    padding-bottom: 20px;
+}
+.team-role {
+    font-size: 14px !important;
+    color: gray;
+    font-weight: bold !important;
+    letter-spacing: 1px;
+}

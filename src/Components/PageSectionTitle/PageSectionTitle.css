@@ -1,0 +1,15 @@
+.page-section-title {
+    font-size: 35px !important; 
+    font-weight: bold !important;
+    padding-top: 50px !important;
+    padding-bottom: 10px !important;
+    /* text-decoration: underline; */
+    text-underline-offset: 10px;
+    text-transform: capitalize !important;
+}
+.page-subtitle{
+    font-size: 0.9rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 85px !important;
+
+}

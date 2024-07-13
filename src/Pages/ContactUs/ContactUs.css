@@ -1,0 +1,104 @@
+.bordered {
+    border: 1px solid black;
+}
+.contact-us-box {
+    width: 80%;
+    margin: auto;
+    padding: 10px 20px;
+    /* border-top-left-radius: 40px; */
+    box-shadow: 3px 3px 10px black;
+}
+.contact-us-box-wrapper {
+    position: relative;
+    top: -50px;
+}
+.contact-us-icon-link {
+    margin-right: 10px !important;
+}
+.contactus-sidecard h6 {
+    margin-top: 20px;
+}
+.image_wrapper_cu {
+    position: relative;
+    height: 400px !important;
+  }
+.transparent-background {
+  background: transparent !important;
+}
+.home-paper {
+  margin-top: 110px;
+}
+  .image_wrapper-height100vh {
+    height: 100vh;
+  }
+  
+  .overlay-cu {
+    position: absolute; 
+    left: 0px;
+    color: white;
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.overlayed-image-cu {
+    width: 50%;
+    float: right;
+    opacity: 0.5;
+    height: 100%;
+    object-fit: cover;
+}
+.rrwhite-cu { 
+  width: 100%;
+  height: 400px !important;
+}
+.contact-us-tile {
+    border: 3px solid #002868;
+    width: 70% !important;
+    margin: auto;
+    padding: 30px 0;
+    border-radius: 8px;
+    background-color: white;
+}
+.contact-us-tile h6 {
+  font-weight: bold !important;
+  color: #002868;
+}
+.contact-us-tile:hover {
+    box-shadow: 1px 1px 1px black;
+}
+.contact-us-tabs {
+  position: relative;
+  bottom: 50px;
+}
+.contact-us-tabs-sm {
+  display: none !important;
+}
+.contact-us-tabs-lg {
+  display: flex !important;
+}
+.contact-us-title {
+  margin-top: 220px !important;
+}
+.css-dpoy1b-MuiFormLabel-root-MuiInputLabel-root {
+  z-index: 0 !important;
+}
+@media (max-width: 480px) {
+    .contact-us-tile {
+        width: 80% !important;
+        margin-top: 20px;
+    }
+    .overlay-cu {
+      height: auto;
+      padding-top: 100px;
+    }
+    .rrwhite-cu, .image_wrapper_cu {
+        height: 100vh !important;
+    }
+    .contact-us-tabs-lg {
+      display: none !important;
+    }
+    .contact-us-tabs-sm {
+      display: block !important;
+    }
+}

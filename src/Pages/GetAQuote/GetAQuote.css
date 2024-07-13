@@ -1,0 +1,22 @@
+.get-a-quote-title {
+    text-transform: capitalize;
+    color: #002868;
+    font-weight: bold;
+    border-bottom: 3px solid #002868;
+}
+.get-a-quote-title-wrapper {
+    margin: 130px auto 50px auto !important;
+    width: 90% !important;
+}
+.border {
+    border: 2px solid black;
+    width: 100%;
+}
+@media (max-width: 480px) {
+    .get-a-quote-title {
+        font-size: 2.5rem !important;
+    }
+    .get-a-quote-title-wrapper {
+        
+    }
+}

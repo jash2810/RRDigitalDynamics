@@ -1,0 +1,99 @@
+.terms-and-condition {
+    color: silver !important;
+    font-size: x-small !important;
+}
+.footer-title {
+    font-size: 2.5rem !important;
+    font-weight: bold !important;
+    color: white;
+    letter-spacing: 1px;
+}
+.footer-links {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.footer{
+    justify-content: center;
+    text-align: center;
+}
+
+.bg{
+    background-image: url(../../Images/dg17.jpg);
+    background-repeat: no-repeat;
+    background-color:#002868 ;
+}
+
+.overlay-footer {
+    position: absolute; 
+    left: 20px;
+    top: auto;
+    color: white;
+    width: -webkit-fill-available;
+  }
+
+  .overlayed-image-footer {
+    float: right;
+    opacity: 0.3;
+    height: 100%;
+    object-fit: cover;
+}
+.fade_rule {
+    height: 1.5px;
+    background-color: #E6E6E6;
+    width: 40.0em;
+    margin: 0 auto;
+    background-image: linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: -o-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: -moz-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: -webkit-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: -ms-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5,#0e2664), color-stop(0.98, white) );
+
+}
+.copyRight{
+    /* text-align: center; */
+    font-size: small;
+    /* position: relative; */
+    /* top: 10rem; */
+}
+
+.link-footer{
+    /* text-align: center; */
+    /* position: relative; */
+    /* top: 10rem; */
+    color: aliceblue !important;
+}
+
+.border {
+    width: 200px;
+    background: linear-gradient(90deg, white 50%, transparent 70%);
+    background-repeat: repeat-x;
+    background-size: 15px 2px;
+    background-position: 0px 0px, 200px 100px, 0px 100px, 200px 0px;
+    /* padding: 10px; */
+    animation: border-dance 20s infinite linear;
+    border-radius: 38px;
+}
+
+  @keyframes border-dance {
+    0% {
+      background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px;
+    }
+    100% {
+      background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px;
+    }
+  }
+
+.home-paper {
+    margin-top: 110px;
+  }
+    .image_wrapper-height70vh {
+      height: 560px;
+    }
+
+@media (max-width: 480px) {
+  .image_wrapper-height70vh {
+    height: 728px;
+  }
+}

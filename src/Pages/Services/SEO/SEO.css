@@ -1,0 +1,30 @@
+.individual-service-title {
+    font-size: 32px !important;
+    margin-bottom: 24px !important;
+    color: #002868 !important;
+}
+.individual-service-content {
+    font-size: 20px !important;
+    color: #002868 !important;
+}
+.individual-service-page-title-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.individual-service-page-title {
+    font-size: 40px !important;
+    color: #002868 !important;
+    border-bottom: 3px solid #002868 !important;
+    font-weight: 600 !important;
+}
+@media (max-width: 480px) {
+    .individual-service-title {
+        font-size: 24px !important;
+        font-weight: bold !important;
+        letter-spacing: 1px !important;
+    }
+    .individual-service-content li {
+        margin: 15px auto !important;
+    }
+}
