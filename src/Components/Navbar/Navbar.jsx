@@ -16,7 +16,7 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(useGSAP);
 function Navbar() {
-  const PAGES = ["Home", "Services", "About Us", "Contact Us"];
+  const PAGES = ["Home", "Services", "About Us", "Contact Us", "Blog"];
   const items = [
     {
       name: "Home ",
@@ -62,7 +62,7 @@ function Navbar() {
     LINKS.indexOf('/'+window.location.href.split('/').reverse()[0]) || 5
   );
   const animate = () => {
-    const menuOffset = $root.current.getBoundingClientRect();
+    const menuOffset = $root.current ? $root.current.getBoundingClientRect() : null;
     const activeItem = $items.current[active].current;
     const { width, height, top, left } = activeItem.getBoundingClientRect();
     const settings = {
@@ -105,7 +105,7 @@ function Navbar() {
   useEffect(() => {
     localStorage.clear();
     if (active !== 5) {
-      animate();
+      $root.current ? animate() : console.log('');
       window.addEventListener("resize", animate);
       return () => {
         window.removeEventListener("resize", animate);

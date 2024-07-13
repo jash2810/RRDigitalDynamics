@@ -163,7 +163,7 @@ function BlogPage() {
           <Grid container style={{width: '90%', margin: 'auto'}} spacing={3}>
             {data.map((b, index) => {
               return(
-                <Grid item md={4}>
+                <Grid item md={4} className="blog-card-wrapper-grid">
                   <BlogCard 
                     title={b.title}
                     statement={b.statement}

@@ -15,6 +15,8 @@ function DrawerComp({ pages, links }) {
     setValue(newValue);
   };
 
+  console.log(pages, links);
+
   return (
     <>
       <Drawer
