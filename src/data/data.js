@@ -47,8 +47,8 @@ export const SocialMediaLinks = [
 ];
 
 export const EmailSecrets = {
-  serviceId: 'service_roe4akw',
-  templateIdGetAQuote: 'template_jiarf6r',
-  publicKey: '5prgSIuaGTyxmFccH',
-  templateIdContactUs: 'template_hi0tene',
+  serviceId: 'service_9d3n9bh',
+  templateIdGetAQuote: 'template_6yo7y36',
+  publicKey: 'sd22EG8lVnPF7YvOf',
+  templateIdContactUs: 'template_46viofn',
 }
